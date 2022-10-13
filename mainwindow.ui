@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1200</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="addAlbumButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Album</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>40</y>
+      <width>341</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="authorLabel">
+       <property name="text">
+        <string>Author:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="authorLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="albumLabel">
+       <property name="text">
+        <string>Album:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="albumLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="releaseYearLabel">
+       <property name="text">
+        <string>Release Year</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="releaseYearLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="genreLabel">
+       <property name="text">
+        <string>Genre:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="genreLineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="trackListLabel">
+       <property name="text">
+        <string>Track list:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_1"/>
+     </item>
+     <item row="5" column="0">
+      <layout class="QFormLayout" name="formLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="numberOfTracksLabel">
+         <property name="text">
+          <string>Number of tracks:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="numberOfTracksSpinBox">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_2"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_3"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_4"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_5"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_6"/>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_7"/>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_8"/>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_9"/>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_10"/>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_11"/>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_12"/>
+     </item>
+     <item row="16" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_13"/>
+     </item>
+     <item row="17" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_14"/>
+     </item>
+     <item row="18" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_15"/>
+     </item>
+     <item row="19" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_16"/>
+     </item>
+     <item row="20" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_17"/>
+     </item>
+     <item row="21" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_18"/>
+     </item>
+     <item row="22" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_19"/>
+     </item>
+     <item row="23" column="1">
+      <widget class="QLineEdit" name="trackListLineEdit_20"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="addAnotherTrackButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>103</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add another track</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>250</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
